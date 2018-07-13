@@ -11,6 +11,7 @@
 <head>
 	<!-- metadata goes here -->
 	<title>This is my first page</title>
+	<!-- <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/> -->
 </head>
 <body>
 	<!-- content goes here -->
@@ -70,14 +71,21 @@
 
 <p>Here are some fucking forms</p>
 <form action="http://www.wikipedia.org/" method="get">
-	<label>Username: <input type="text" placeholder="username" name="username"></label>
-	<label>Password: <input type="password" placeholder="password" name="password"></label>
+	<label>Username: <input type="text" placeholder="username" name="username" required></label>
+	<label>Password: <input type="password" placeholder="password" name="password" required></label>
 	<label>Date: <input type="date"></label>
 	<input type="file">
 	<input type="checkbox">
+	<input type="radio">
+	<select name="color">
+		<option>Blue</option>
+		<option>Green</option>
+	</select>
 	<button>Login</button>
 	<input type="submit">
 </form>
+
+<textarea name="textarea" rows="10" cols="50">Stuff goes here.</textarea>
 
 </body>
 </html>

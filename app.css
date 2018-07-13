@@ -1,0 +1,59 @@
+li {
+	color: rgb(255,255,255);
+}
+
+h1 {
+	color: rgba(100,0,100,.5);
+/*	border-color: white;
+	border-width: 5px;
+	border-style: solid;*/
+	border: 2px solid rgba(100,0,100,.5);
+	text-align: center;
+	font-weight: bold;
+	font-family: Indie Flower;
+}
+
+h2 {
+	color: rgba(255,0,0,.8);
+}
+
+div {
+	background: rgb(255,0,0,.2);
+}
+
+body {
+	background: orange;
+/*	background: url(http://c-5uwzmx78pmca09x24klv1-eeex2elwobqumx2ekwu.g00.dogtime.com/g00/3_c-5lwobqum.kwu_/c-5UWZMXPMCA09x24pbbx78x3ax2fx2fklv1-eee.lwobqum.kwux2fiaambax2fcx78twilax2foittmzgx2fx78mujzwsm-emtap-kwzoq-lwo-jzmml-x78qkbczmax2fx78zivkm-6.rx78ox3fq98k.uizsx3dquiom_$/$/$/$/$/$);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
+
+#special {
+	color: yellow;
+}
+
+.aaa {
+	text-decoration: underline;
+}
+
+p {
+	font-size: 12pt;
+	font-family: Arial;
+	font-weight: normal;
+	line-height: 1.5;
+	border: 2px solid blue;
+	width: 50%;
+	padding: 10px;
+	margin: 10px auto 10px auto;
+	/*height: 300px;*/
+}
+
+span {
+	font-size: 2.0em;
+}
+
+/* select all: *
+   select nth of type: p:nth-of-type(even)
+   attribute select: a[href="https://www.google.com"]
+   adjacent select: h4+ul
+   descendent select: li a */
